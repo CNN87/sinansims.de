@@ -11,8 +11,20 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-weight: 500;
+
+        &:hover {
+            color: lawngreen;
+        }
+    }
+
     img {
         height: 80px;
-        filter: invert(1);
+        
     }
 }
